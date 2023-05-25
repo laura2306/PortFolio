@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+   
+    <header>
+      <h1> Mon Portfolio </h1>
+    </header>
+
+    <main class="main-block"></mainclass>
+      <nav>
+        <a href="#ancre-aboutMe" class="lien-debut">A propos de moi</a>
+        <a href="#ancre-formation" class="lien-debut">Formation</a>
+        <a href="#ancre-mesProjets" class="lien-debut">Mes Projets</a>
+        <a href="#ancre-contactezMoi" class="lien-debut">Contactez-moi</a>
+      </nav>
+
+
+      <img src="img/computer.jpeg" id="image-computer"/>
+
+
+      <!--Partie 1 : profil, name et city-->
+      <section id="section-White">
+        <div id="ancre-aboutMe"></div>
+        <div class="profils">
+          <div>
+            <img src="img/dog.jpeg" id="image-dog">
+          </div>
+          <div class="name-city">
+            <p class="name">LEDOUX Laura</p>
+            <p class="city">Rouen</p>
+          </div>
+        </div>
+        <div class="about-me">
+          <h3 class="h3-about-me">A propos de moi</h3>
+          <div class="text-about-me">
+            <p> Ayant travaillé pendant 4 ans en tant qu'infirmière au bloc opératoire, je souhaite aujourd'hui me reconvertir. 
+              Grâce à mon expérience professionnelle, j'ai acquis un bon sens du relationnel et une forte capacité d'adaptabilité.
+            </p>
+            <p>Dynamique et motivée, j'ai commencé à me former sur reactor et openclassroom en développement informatique avant de rentrer en formation. 
+              J'ai donc des bases en Javascript, en HTML et en CSS. Je peux donc réussir à m'adapter et évoluer dans ce milieu. 
+              Je m'investis toujours au maximum dans le projet que j'entreprends. J'aime effectuer des recherches pour améliorer mes connaissances et compétences.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+
+      <!--Partie 2 : formation -->
+      <section id="section-Purple">
+        <div id="ancre-formation"></div>
+        <div>
+          <h3 class="h3-title-23">Formation</h3>
+          <p class="text-formation"> Les technologies sur lesquelles je me forme actuellement : </p>
+          <div class="ensemble-logo">
+            <img src="img/html.png" id="logo">
+            <img src="img/javascript.png" id="logo">
+            <img src="img/css.png" id="logo"> 
+          </div>
+          <p class="text-formation">Prochainement, j'envisage d'integrer une formation <b>Developpeur en informatique</b> du <b>CESI</b>
+             pour perfectionner mes connaissances et apprendre de nouvelles technologie :  
+          </p>
+          <div class="ensemble-logo">
+            <img src="img/mongodb.png" id="logo">
+            <img src="img/react.png" id="logo">
+          </div>
+        </div>
+      </section>
+
+      <!--Partie 2 : Mes projet -->
+      <section id="section-White">
+        <div id="ancre-mesProjets"></div>
+        <div>
+          <h3 class="h3-title-23">Mes projets</h3>
+          <p class="text-formation"> Les projets présents ci-dessous sont fictifs. Ce portfolio est le resultat d'un exercice donné par le site "reactor".
+            Cela m'a permis de m'entraîner sur la disposition des images et des zones de texte </p>
+        </div>
+      
+        <!-- 1ere image du projet : Tripadvisor -->
+        <div class="projet">
+          <img src="img/tripadvisor.png" id="image-projet">
+          <div>
+            <p class="h3-title-23">Tripadvisor Web</p>
+            <p class="text-projet"><b>Projet Front-end</b></p>
+            <ul class="text-projet">
+              <li>Envoi automatisé de mails</li>
+              <li>Carousel de photo</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 2e image du projet : Deliveroo Web -->
+        <div class="projet">
+          <img src="img/deliveroo.png" id="image-projet">
+          <div>
+            <p class="h3-title-23">Deliveroo Web</p>
+            <p class="text-projet"><b>Projet Front-end</b></p>
+            <ul class="text-projet">
+              <li>Récupération de données</li>
+              <li>Panier de commande</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <!-- 3e image du projet : vinted Web -->
+        <div class="projet">
+          <img src="img/vinted.png" id="image-projet">
+          <div>
+            <p class="h3-title-23">Vinted Web</p>
+            <p class="text-projet"><b>Projet Full-stack</b></p>
+            <ul class="text-projet">
+              <li>Inscription / connexion</li>
+              <li>Récupération des données</li>
+              <li>Publication d'annonces</li>
+              <li>Barre de recherche</li>
+              <li>Paiement</li>
+              <li>Upload de photo</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 4e image du projet : Airbnb Mobile -->
+        <div class="projet">
+          <img src="img/deliveroo.png" id="image-projet">
+          <div>
+            <p class="h3-title-23">Deliveroo Web</p>
+            <p class="text-projet"><b>Projet Front-end</b></p>
+            <ul class="text-projet">
+              <li>Inscription / connexion</li>
+              <li>Modification du profil utilisateur</li>
+              <li>Affichage de cartes</li>
+              <li>Géolocalisation</li>
+              <li>Accès à la galerie d'images</li>
+              <li>Accès à l'appareil photo</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <!--Partie 4 : Contactez moi -->
+      <section id="section-Purple">
+        <div id="ancre-contactezMoi"></div>
+        <h3 class="h3-title-23">Contactez-moi</h3>
+       
+        <!--adresse mail-->
+        <div class="contactez-moi">
+          <img src="img/mail-removebg-preview.png" id="logo-contactezMoi">
+          <a href = "mailto:lauraledoux14@hotmail.fr" class="lien">lauraledoux14@hotmail.fr</a> 
+        </div>
+
+        <!--linkedin-->
+        <div class="contactez-moi">
+          <img src="img/linkedin-removebg-preview.png" id="logo-contactezMoi">
+          <a href = "https://www.linkedin.com/in/laura-ledoux-218304259" target="_blank" class="lien">Mon linkedin</a> 
+        </div>
+
+        <!--autre lien (j'ai mis facebook parce que j'ai pas l'autre truc)-->
+        <div class="contactez-moi">
+          <img src="img/github-removebg-preview.png" id="logo-contactezMoi">
+          <a href = "https://www.facebook.com/Laura.Ledoux23"target="_blank" class="lien">Mon Facebook</a> 
+        </div>
+      </section>
+
+
+    </main>
+
+  </body>
+</html>  
